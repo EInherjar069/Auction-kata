@@ -21,7 +21,7 @@ public class Main {
 
         if (winningBid != null) {
 
-            System.out.println("Winner: " + winningBid.getBidder().getName()+"(With the highest bid of "+winningBid.getAmount());
+            System.out.println("Winner: " + winningBid.getBidder().getName()+" (With the highest bid of "+winningBid.getAmount()+")");
 
             System.out.println("Winning price " + price);
         } else {
