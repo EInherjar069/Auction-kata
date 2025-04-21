@@ -1,5 +1,5 @@
-package auction;
-
+import auction.Bid;
+import auction.VickreyAuction;
 import participants.Bidder;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
