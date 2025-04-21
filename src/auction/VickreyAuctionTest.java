@@ -1,4 +1,4 @@
-package test;
+package auction;
 
 import auction.Bid;
 import auction.VickreyAuction;
