@@ -19,7 +19,7 @@ java -cp out Main
 
 ### How it works :
 
-The program reads from a JSON file named bids.json (in src/main/resources):
+The program reads from a JSON file named bids.json in  `src/main/resources`:
 ```
 {
   "reservePrice": 100,   // is reserved price of auction

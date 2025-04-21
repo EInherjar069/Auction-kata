@@ -5,14 +5,18 @@ import utils.JsonBidLoader;
 
 public class Main {
     public static void main(String[] args) {
+
+
         Auction auction = new VickreyAuction();
 
+        // getting data from bids.json file in ressources and injecting it into the auction
         JsonBidLoader.loadFromJson("bids.json", auction);
 
-
+        // starting an auction
         auction.startAuction();
-        Bid winningBid = auction.getWinningBid();
 
+        // getting results needed from the auction
+        Bid winningBid = auction.getWinningBid();
         double price = auction.getWinningPrice();
 
         if (winningBid != null) {
