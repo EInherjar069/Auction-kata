@@ -2,8 +2,6 @@ package main;
 
 import auction.*;
 import utils.JsonBidLoader;
-
-import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
