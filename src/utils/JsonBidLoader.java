@@ -6,8 +6,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import auction.Auction;
 import auction.Bid;
 import participants.Bidder;
-
-import java.io.IOException;
 import java.io.InputStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
