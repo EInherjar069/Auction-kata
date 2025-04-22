@@ -9,6 +9,7 @@ This project simulates a sealed-bid **second-price (Vickrey) auction**. It allow
 - `src/` - Contains the Java source code
 - `main/resources/` - Contains the input JSON file
 - `test/` - Unit tests written with JUnit
+- `out\artifacts\kata_auction_jar` - contains jar file of built project
 
 ---
 
@@ -24,7 +25,7 @@ This project simulates a sealed-bid **second-price (Vickrey) auction**. It allow
 ### Option 2: Run the JAR file from the command line
 
 1. Open a terminal
-2. Navigate to the directory containing `kata-auction.jar` file
+2. Navigate to the directory containing `kata-auction.jar` file (out\artifacts\kata_auction_jar)
 3. Run : (where path/to/bids.json is the path to reach bids.json)
 
 ```bash
